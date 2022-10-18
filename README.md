@@ -1,1 +1,1 @@
-this repository contains information about the printf functions
+this repository contain information about the printf functions
