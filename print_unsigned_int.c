@@ -6,7 +6,6 @@
  *
  * Return: number of digits printed
  */
-
 int print_u(va_list u)
 {
 	unsigned int a[10];
@@ -24,7 +23,7 @@ int print_u(va_list u)
 	for (i = 0, sum = 0, count = 0; i < 10; i++)
 	{
 		sum += a[i];
-		f(sum || i == 9)
+		if (sum || i == 9)
 		{
 			_putchar('0' + a[i]);
 			count++;
@@ -39,7 +38,6 @@ int print_u(va_list u)
  *
  * Return: number of digits printed
  */
-
 int print_o(va_list o)
 {
 	unsigned int a[11];
