@@ -1,1 +1,1 @@
-this repository contain information about the printf functions
+alx team project C - printf
